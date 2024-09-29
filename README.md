@@ -1,25 +1,26 @@
-# README
+## 新潟大学教科書フリマアプリのバックエンドリポジトリ
+### 新潟大学プログラミングサークルPLOTのチーム開発プロジェクトです
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### セットアップ
 
-Things you may want to cover:
+#### .envファイルを作成
+* 以下は例です。任意の値を設定してください
+```env
+DATABASE_HOST=db
+DATABASE_USERNAME=postgres
+DATABASE_PASSWORD=password
+```
 
-* Ruby version
+#### Dockerコンテナの起動
+```
+docker-compose build
+```
 
-* System dependencies
+```
+docker-compose up
+```
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# Textbook-Free-Market-App
+#### localhostにアクセス
+```
+http://localhost:3000/
+```
