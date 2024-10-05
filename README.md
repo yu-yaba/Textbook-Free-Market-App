@@ -3,13 +3,10 @@
 
 ### セットアップ
 
-#### .envファイルを作成
-* 以下は例です。任意の値を設定してください
-```env
-DATABASE_HOST=db
-DATABASE_USERNAME=postgres
-DATABASE_PASSWORD=password
-```
+#### Dockerをインストール
+* コマンドラインか、以下でデスクトップアプリをインストール
+* https://www.docker.com/ja-jp/products/docker-desktop/
+
 
 #### Dockerコンテナの起動
 ```
